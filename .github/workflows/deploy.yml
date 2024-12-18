@@ -31,11 +31,14 @@ jobs:
       - name: Install step
         run: "yarn"
 
+      - name: Build step
+        run: "yarn && yarn start"
+
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "heisenberg-segment-any-61"
-          entrypoint: "yarn start"
+          entrypoint: ""
           root: "demo"
           
           
