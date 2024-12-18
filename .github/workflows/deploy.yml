@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "heisenberg-segment-any-61"
-          entrypoint: "demo"
+          entrypoint: "demo/"
           root: "demo"
           
           
