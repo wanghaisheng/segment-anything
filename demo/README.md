@@ -1,3 +1,6 @@
+asset cut
+
+
 ## Segment Anything Simple Web demo
 
 This **front-end only** React based web demo shows how to load a fixed image and corresponding `.npy` file of the SAM image embedding, and run the SAM ONNX model in the browser using Web Assembly with mulithreading enabled by `SharedArrayBuffer`, Web Worker, and SIMD128.
